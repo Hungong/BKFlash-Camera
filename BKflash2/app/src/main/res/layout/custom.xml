@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180px"
+    android:layout_height="180px"
+    android:gravity="bottom"
+    android:orientation="horizontal"
+    android:weightSum="2">
+
+    <ImageButton
+        android:id="@+id/btnSwitch1"
+        android:layout_width="180px"
+        android:layout_height="180px"
+        android:layout_marginBottom="100dp"
+        android:background="@null"
+        android:contentDescription="@null"
+        android:src="@drawable/flashlightoff"
+        android:layout_weight="1"/>
+
+    <ImageButton
+        android:id="@+id/btnSwitch2"
+        android:layout_width="180px"
+        android:layout_height="180px"
+        android:layout_marginBottom="100dp"
+        android:background="@null"
+        android:contentDescription="@null"
+        android:src="@drawable/flashblink"
+        android:layout_weight="1"/>
+</LinearLayout>
